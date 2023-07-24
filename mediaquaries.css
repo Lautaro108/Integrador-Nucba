@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  .navbar ul {
+    background: rgb(100, 92, 92);
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .navbar i {
+    display: block;
+  }
+  .header-class {
+    gap: 200px;
+  }
+  .ini {
+    display: none;
+  }
+  #menu-bur:checked ~ .navbar-list {
+    display: flex;
+  }
+}

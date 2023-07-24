@@ -8,33 +8,76 @@
     <link rel="stylesheet" href="mediaquaries.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <body>
     <!-- Header -->
     <header class="header-class">
-      <nav id="menu">
-        <a href="index.html">
-          <img src="./foto.png" alt="" class="imga" />
-        </a>
+      <img src="./foto.png" alt="" class="imga" />
+      <nav class="navbar">
+        <label for="menu-bur"
+          ><i
+            class="fa-solid fa-bars-staggered fa-bounce"
+            style="color: #e0b51a"
+          ></i
+        ></label>
         <input type="checkbox" id="menu-bur" />
-        <div class="menu-one">
-          <!-- <label for="menu-bur">
-            <img src="/fot.png" alt="" />
-          </label> -->
-          <ul class="navbar">
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Beneficios</a></li>
-            <li><a href="">Hombre</a></li>
-            <li><a href="">Mujer</a></li>
-            <li>
-              <a href=""><span>¡SALE!</span></a>
-            </li>
-            <li><a href="">Contacto</a></li>
-          </ul>
-        </div>
+        <ul class="navbar-list">
+          <li><a href="#" class="ini">Inicio</a></li>
+          <li><a href="#">Beneficios</a></li>
+          <li><a href="#">Hombre</a></li>
+          <li><a href="#">Mujer</a></li>
+          <li>
+            <a href="./inicio.html"
+              ><span class="fa-solid fa-bounce">¡SALE!</span></a
+            >
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
       </nav>
     </header>
+    <!-- Main Sction -->
+    <main class="main-section">
+      <div class="image--main">
+        <img
+          src="https://www.oberlo.com/media/1603891972-shutterstock466589549-880x450.jpg?fit=max&fm=jpg&w=1824"
+          alt=""
+        />
+        <img
+          src="https://storage.lacapitalmdp.com/2019/12/Guess-1024x581.jpg"
+          alt=""
+        />
+        <img
+          src="https://storage.lacapitalmdp.com/2019/12/Guess-1024x581.jpg"
+          alt=""
+        />
+      </div>
+    </main>
+    <!-- Inicio de Sesion -->
+    <section class="inicio-sesion">
+      <div class="card">
+        <h3>Inicio de Sesion</h3>
+        <hr class="hrr" />
+        <div class="card--info">
+          <form>
+            <label for="mail">Correo Electronico:</label>
+            <input
+              type="email"
+              id="mail"
+              required
+              placeholder="NaturalOutfit@gmail.com"
+            />
+          </form>
+          <form>
+            <label for="passwordd">Contraseña:</label>
+            <input type="password" id="passwordd" required />
+          </form>
+          <button type="submit">
+            <a href="./inicio.html">Enviar</a>
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
