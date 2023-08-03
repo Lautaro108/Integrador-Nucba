@@ -155,3 +155,36 @@ body {
   font-size: 0.9rem;
   color: #e9cf3b;
 }
+.css-button-retro--sand {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #e9cf3b;
+  border-radius: 5px;
+  color: #e9cf3b;
+  background: transparent;
+  z-index: 0;
+}
+.css-button-retro--sand:hover:after {
+  top: 0;
+  left: 0;
+}
+.css-button-retro--sand:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #2d2f36a2;
+  border-radius: 5px;
+}
