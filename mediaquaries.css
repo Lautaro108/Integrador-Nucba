@@ -1,13 +1,14 @@
 @media (max-width: 576px) {
   .navbar ul {
     background: rgba(0, 0, 0, 0.781);
+    border: solid rgb(245, 228, 0);
     width: 100%;
     position: absolute;
-    top: 100px;
+    top: 110px;
     left: 0;
     flex-direction: column;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 0px 0px 10px 10px;
     display: none;
     overflow: hidden;
     height: 75vh;

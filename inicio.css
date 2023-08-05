@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 
-.header-class {
+.headeer-class {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -60,24 +60,36 @@
     animation-timing-function: ease-out;
   }
 }
-.navbar ul {
+.navbaar ul {
   list-style: none;
   display: flex;
   gap: 100px;
 }
-.navbar i {
+.navbaar i {
   font-size: 3rem;
   display: none;
 }
-#menu-bur {
+#men-buur {
   display: none;
 }
-.navbar-list a {
+.navbaar ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+.navbaar i {
+  font-size: 3rem;
+  display: none;
+}
+#men-buur {
+  display: none;
+}
+.navbare-listt a {
   font-weight: 500;
   font-size: 1.2rem;
   color: rgb(245, 228, 0);
 }
-.navbar-list span {
+.navbare-listt span {
   font-size: 1.7rem;
   color: rgb(245, 228, 0);
 }
