@@ -9,10 +9,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: rgb(10, 9, 9);
-  box-shadow: 0px 5px 24px 7px rgba(184, 170, 20, 1);
+  background: rgba(10, 9, 9, 0.607);
+
   width: 100%;
-  height: 110px;
+  /* height: 10px; */
+  position: fixed;
+  z-index: 2;
 }
 .imga {
   height: 100px;
@@ -79,8 +81,8 @@
 }
 /* Main */
 .main-containeer {
-  background: url(https://con-actitud.com.ar/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-01-at-13.16.08-1.jpeg);
-  height: 400px;
+  /* background: url(https://http2.mlstatic.com/D_NQ_NP_873329-MLA50687710560_072022-O.webp); */
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -102,9 +104,11 @@
   gap: 50px;
 }
 .main-imag img {
-  height: 395px;
+  height: 570px;
+  width: 1293px;
   border-radius: 5px;
   filter: grayscale(100%);
+  z-index: -1;
 }
 .css-button-shadow-border-sliding--black {
   width: 100px;
@@ -185,4 +189,74 @@
 }
 .card-conatiner img {
   width: 100%;
+}
+#Hombre {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 236, 10, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 10px;
+}
+.over img {
+  height: 300px;
+}
+.over {
+  background: #cdc6c6;
+  width: 350px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.over ul {
+  list-style: none;
+}
+.over-two {
+  /* background: red; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.button-fully-rounded--sand {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #818a94;
+  background: #818a94;
+}
+.button-fully-rounded--sand:hover {
+  background: #323232;
+  color: #adb5bd;
+}
+.btn-crd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.over-two-bee {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn-crd-be {
+  display: flex;
+  width: 270px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
