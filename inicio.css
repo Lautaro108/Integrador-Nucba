@@ -11,13 +11,8 @@
   align-items: center;
   background: rgb(10, 9, 9);
   box-shadow: 0px 5px 24px 7px rgba(184, 170, 20, 1);
-  position: fixed;
   width: 100%;
   height: 110px;
-  z-index: 1;
-}
-.navbar-list hr {
-  display: none;
 }
 .imga {
   height: 100px;
@@ -72,18 +67,7 @@
 #men-buur {
   display: none;
 }
-.navbaar ul {
-  list-style: none;
-  display: flex;
-  gap: 100px;
-}
-.navbaar i {
-  font-size: 3rem;
-  display: none;
-}
-#men-buur {
-  display: none;
-}
+
 .navbare-listt a {
   font-weight: 500;
   font-size: 1.2rem;
@@ -92,4 +76,113 @@
 .navbare-listt span {
   font-size: 1.7rem;
   color: rgb(245, 228, 0);
+}
+/* Main */
+.main-containeer {
+  background: url(https://con-actitud.com.ar/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-01-at-13.16.08-1.jpeg);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.title-main {
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.main-info {
+  background: yellow;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.main-imag img {
+  height: 395px;
+  border-radius: 5px;
+  filter: grayscale(100%);
+}
+.css-button-shadow-border-sliding--black {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: #212529;
+  z-index: 1;
+}
+.css-button-shadow-border-sliding--black:hover:after {
+  width: 100%;
+  left: 0;
+}
+.css-button-shadow-border-sliding--black:after {
+  border-radius: 5px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background-color: #343a40;
+  right: 0;
+}
+.css-button-shadow-border-sliding--black:active {
+  top: 2px;
+}
+#Beneficios {
+  background: rgb(255, 255, 255);
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+}
+.card-conatiner {
+  width: 250px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: solid 1.5px black;
+  padding: 10px;
+  box-shadow: 20px 28px 39px -1px rgba(0, 0, 0, 1);
+}
+.cards {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card-conatiner h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: transparent;
+  background: linear-gradient(to right, #ff8008, #ffc837);
+  -webkit-background-clip: text;
+}
+.card-conatiner p {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+.card-conatiner img {
+  width: 100%;
 }
