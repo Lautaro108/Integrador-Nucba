@@ -1,36 +1,20 @@
 @media (max-width: 576px) {
-  .navbar ul {
-    background: rgba(0, 0, 0, 0.781);
-    border: solid rgb(245, 228, 0);
+  header {
+    background: red;
+    display: flex;
+    /* top: 0;
+    position: fixed; */
+    position: sticky;
     width: 100%;
-    position: absolute;
-    top: 110px;
-    left: 0;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 0px 0px 10px 10px;
+  }
+  .navbar-uls {
     display: none;
-    overflow: hidden;
-    height: 75vh;
-    gap: 80px;
   }
-  .navbar ul a {
-    color: rgb(245, 228, 0);
-  }
-  .navbar-list hr {
-    color: rgb(245, 228, 0);
-    width: 100%;
-  }
-  .navbar i {
+
+  .navbar-list i {
     display: block;
   }
-  .header-class {
-    gap: 100px;
-  }
-  .ini {
-    display: none;
-  }
-  #menu-bur:checked ~ .navbar-list {
+  #toggle-menu:checked ~ .navbar-uls {
     display: flex;
   }
 }
