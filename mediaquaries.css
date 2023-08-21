@@ -12,14 +12,10 @@
     display: none;
     overflow: hidden;
     height: 75vh;
-    gap: 80px;
+    gap: 100px;
   }
   .navbar ul a {
     color: rgb(245, 228, 0);
-  }
-  .navbar-list hr {
-    color: rgb(245, 228, 0);
-    width: 100%;
   }
   .navbar i {
     display: block;
@@ -32,5 +28,9 @@
   }
   #menu-bur:checked ~ .navbar-list {
     display: flex;
+  }
+  .css-button-sliding-to-left--grey {
+    width: 250px;
+    font-size: 1.1rem;
   }
 }

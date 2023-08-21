@@ -1,20 +1,49 @@
 @media (max-width: 576px) {
+  html {
+    /* border: solid red; */
+  }
   header {
     background: red;
     display: flex;
-    /* top: 0;
-    position: fixed; */
-    position: sticky;
     width: 100%;
+    justify-content: space-around;
   }
   .navbar-uls {
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     display: none;
   }
-
-  .navbar-list i {
+  .navbarar i {
     display: block;
   }
   #toggle-menu:checked ~ .navbar-uls {
     display: flex;
+  }
+  #inicio {
+    width: 57vh;
+  }
+  #Beneficios {
+    background: red;
+    width: 57vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #Hombre {
+    width: 57vh;
+  }
+  #Woman {
+    width: 57vh;
+  }
+  #About-Us {
+    width: 57vh;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .footer-info {
+    width: 57vh;
   }
 }
