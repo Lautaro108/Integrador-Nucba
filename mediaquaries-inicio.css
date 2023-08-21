@@ -3,7 +3,6 @@
     /* border: solid red; */
   }
   header {
-    background: red;
     display: flex;
     width: 57vh;
     justify-content: space-around;
