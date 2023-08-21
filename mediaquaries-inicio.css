@@ -4,7 +4,7 @@
   }
   header {
     display: flex;
-    width: 432px;
+    width: 425px;
     justify-content: space-around;
   }
   .navbar-uls {
@@ -22,26 +22,26 @@
     display: flex;
   }
   #inicio {
-    width: 432px;
+    width: 425px;
   }
   #Beneficios {
-    width: 432px;
+    width: 425px;
     display: flex;
     flex-wrap: wrap;
   }
   #Hombre {
-    width: 432px;
+    width: 425px;
   }
   #Woman {
-    width: 432px;
+    width: 425px;
   }
   #About-Us {
-    width: 432px;
+    width: 425px;
     display: flex;
     flex-direction: column;
     gap: 60px;
   }
   .footer-info {
-    width: 432px;
+    width: 425px;
   }
 }
