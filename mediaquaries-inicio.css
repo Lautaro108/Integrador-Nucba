@@ -5,8 +5,10 @@
   header {
     display: flex;
     width: 425px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
   }
+
   .navbar-uls {
     background: white;
     width: 100%;
@@ -18,7 +20,7 @@
   .navbarar i {
     display: block;
   }
-  #toggle-menu:checked ~ .navbar-uls {
+  #toggle-men:checked ~ .navbar-uls {
     display: flex;
   }
   #inicio {
