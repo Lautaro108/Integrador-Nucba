@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+body {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(0, 0, 0) 0%,
+    rgba(255, 236, 10, 1) 25%,
+    rgb(0, 0, 0) 51%,
+    rgb(0, 0, 0) 100%
+  );
+  -webkit-animation: AnimateBG 12s ease infinite;
+  animation: AnimateBG 12s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.login-page {
+  width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  z-index: 1;
+  background: #ffffff60;
+  max-width: 400px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border-radius: 15px;
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 7px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #c5c207;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  border-radius: 7px;
+  font-size: 14px;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+button a {
+  text-decoration: none;
+  color: #fffffd;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #000000;
+}
+.message {
+  margin: 15px 0 0;
+  color: #000000;
+  font-size: 12px;
+}
+.message a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}

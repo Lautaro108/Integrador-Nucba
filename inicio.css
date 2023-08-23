@@ -52,13 +52,6 @@ header img {
 
 /* Main */
 
-.main-image {
-  background: #000000;
-  height: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .bg {
   width: 100%;
   height: 100vh;
