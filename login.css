@@ -100,3 +100,10 @@ button a {
   text-decoration: none;
   font-weight: 700;
 }
+
+@media (max-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
