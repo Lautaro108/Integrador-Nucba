@@ -23,10 +23,21 @@
   #Beneficios {
     display: flex;
     flex-wrap: wrap;
+    min-width: 576px;
+    background: red;
   }
-
+  #inicio {
+    min-width: 576px;
+  }
+  #Hombre {
+    min-width: 576px;
+  }
+  #Woman {
+    min-width: 576px;
+  }
   #About-Us {
     display: flex;
+    min-width: 576px;
     flex-wrap: wrap;
     gap: 20px;
   }
