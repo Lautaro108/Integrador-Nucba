@@ -13,7 +13,7 @@ header {
   height: 100px;
   position: fixed;
   width: 100%;
-  box-shadow: -2px 23px 37px 22px rgba(235, 235, 21, 1);
+  border: solid #ffc837;
   z-index: 1;
 }
 header img {

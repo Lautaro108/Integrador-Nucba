@@ -1,17 +1,13 @@
 @media (max-width: 576px) {
-  body {
-    width: 476px;
-  }
   header {
     display: flex;
-    width: 443px;
+    max-width: 576px;
     justify-content: center;
     gap: 50px;
   }
 
   .navbar-uls {
     background: white;
-    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -23,27 +19,15 @@
   #toggle-men:checked ~ .navbar-uls {
     display: flex;
   }
-  #inicio {
-    width: 443px;
-  }
+
   #Beneficios {
-    width: 443px;
     display: flex;
     flex-wrap: wrap;
   }
-  #Hombre {
-    width: 443px;
-  }
-  #Woman {
-    width: 443px;
-  }
+
   #About-Us {
-    width: 443px;
     display: flex;
-    flex-direction: column;
-    gap: 60px;
-  }
-  .footer-info {
-    width: 443px;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
