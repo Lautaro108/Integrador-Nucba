@@ -308,7 +308,7 @@ header img {
   width: 150px;
   cursor: pointer;
 }
-.footer-info {
+#footer-info {
   background: #000000;
   color: #cdc6c6;
   display: flex;
@@ -318,10 +318,10 @@ header img {
   gap: 15px;
   padding: 20px;
 }
-.footer-info hr {
+#footer-info hr {
   width: 95.6%;
 }
-.footer-info p {
+#footer-info p {
   display: flex;
   justify-content: flex-start;
   width: 95.6%;

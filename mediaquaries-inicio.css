@@ -5,7 +5,6 @@
     justify-content: center;
     gap: 50px;
   }
-
   .navbar-uls {
     background: white;
     flex-direction: column;
@@ -24,7 +23,6 @@
     display: flex;
     flex-wrap: wrap;
     min-width: 576px;
-    background: red;
   }
   #inicio {
     min-width: 576px;
