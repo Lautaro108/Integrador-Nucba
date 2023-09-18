@@ -1,31 +1,25 @@
 @media (max-width: 576px) {
-  header {
-    display: flex;
-    max-width: 576px;
-    justify-content: center;
-    gap: 50px;
-  }
-  .navbarar {
-  }
-  .olis {
+  .navbar ul {
+    background: rgba(185, 167, 3, 0.548);
+    width: 100%;
     position: absolute;
-    background: rgb(233, 2, 2);
+    top: 100px;
+    left: 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
+    display: none;
+    z-index: 2;
   }
-  .navbarar i {
+  .imgaa {
+    display: none;
+  }
+  .navbar i {
     display: block;
   }
-  #toggle-men:checked ~ .navbar-uls {
+  #toggle-menu:checked ~ .navbar-list {
     display: flex;
   }
-
   #Beneficios {
     display: flex;
     flex-wrap: wrap;
