@@ -41,6 +41,9 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+  #footer-info {
+    min-width: 576px;
+  }
 }
 @media (max-width: 320px) {
   .header {
