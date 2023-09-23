@@ -42,3 +42,28 @@
     gap: 20px;
   }
 }
+@media (max-width: 320px) {
+  .header {
+    min-width: 320px;
+  }
+  #footer-info {
+    min-width: 320px;
+  }
+  #Beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 320px;
+  }
+  #inicio {
+    min-width: 320px;
+  }
+  #Hombre {
+    min-width: 320px;
+  }
+  #Woman {
+    min-width: 320px;
+  }
+  #About-Us {
+    min-width: 320px;
+  }
+}
